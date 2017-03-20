@@ -4,7 +4,7 @@
 	<?php $favcolor= $_POST ['favcolor'];
 	switch($favcolor){
 		case "red":
-			include("red.html");
+			include("map1.html");
 			break
 		case "blue":
 			echo "Your favorite color is blue!";
