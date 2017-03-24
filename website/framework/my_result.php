@@ -3,15 +3,18 @@
 <body>
 	<?php $favcolor= $_POST ['favcolor'];
 	switch($favcolor){
-		case "red":
-			include("map1.html");
-			break
 		case "blue":
-			echo "Your favorite color is blue!";
-			break
+			include("map1.html");
+			break;
+		case "green":
+			include("map2.html");
+			break;
+		case "pink":
+			include("map3.html");
+			break;
 		default:
-			echo "Do you even know what a good color is??"
-			break
+			include("index.html");
+			break;
 	}
 	?>
 
