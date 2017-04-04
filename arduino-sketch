@@ -82,6 +82,32 @@ void loop() {
     digitalWrite(led5, LOW);
   }
   if(switch0==LOW && switch1==LOW && switch2==LOW && switch3==HIGH && switch4==LOW && switch5==HIGH){
+    digitalWrite(led3,LOW);
+    digitalWrite(led5,LOW);
+    digitalWrite(led0, HIGH);
+    delay(75);
+    digitalWrite(led0,LOW);
+    delay(75);
+    digitalWrite(led1, HIGH);
+    delay(75);
+    digitalWrite(led1,LOW);
+    delay(75);
+    digitalWrite(led2, HIGH);
+    delay(75);
+    digitalWrite(led2,LOW);
+    delay(75);
+    digitalWrite(led3, HIGH);
+    delay(75);
+    digitalWrite(led3,LOW);
+    delay(75);
+    digitalWrite(led4, HIGH);
+    delay(75);
+    digitalWrite(led4,LOW);
+    delay(75);
+    digitalWrite(led5, HIGH);
+    delay(75);
+    digitalWrite(led5,LOW);
+    delay(75);
     digitalWrite(ledPin,HIGH); } 
 else{
   digitalWrite(ledPin, LOW);}
